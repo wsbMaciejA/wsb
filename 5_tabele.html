@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tabele</title>
+    <link rel="stylesheet" href="style/5_tabele.css">
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">kolumna 1</th>
+        <th scope="col">kolumna 2</th>
+        <th scope="col">kolumna 3</th>
+      </tr>
+      <tr>
+        <th scope="row">wiersz 1</th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <th scope="row">wiersz 2</th>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <th scope="row">wiersz 2</th>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+    </table>
+    <hr>
+
+    <!-- łączenie kolumn -->
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Poniedziałek</th>
+        <th scope="col">Wtorek</th>
+        <th scope="col">Środa</th>
+      </tr>
+      <tr>
+        <th scope="row">15:00</th>
+        <td>Judo</td>
+        <td>Zapasy</td>
+        <td>Kido</td>
+      </tr>
+      <tr>
+        <th scope="row">16:00</th>
+        <td colspan="3">Boks</td>
+      </tr>
+      <tr>
+        <th scope="row">17:00</th>
+        <td>KSW</td>
+        <td colspan="2">Zapasy</td>
+      </tr>
+    </table>
+    <hr>
+
+    <!-- łączenie wierszy -->
+    <table>
+      <tr>
+        <td>komórka 1</td>
+        <td>komórka 2</td>
+        <td>komórka 3</td>
+      </tr>
+      <tr>
+        <td rowspan="2">komórka 4</td>
+        <td>komórka 5</td>
+        <td>komórka 6</td>
+      </tr>
+      <tr>
+        <td>komórka 8</td>
+        <td>komórka 9</td>
+      </tr>
+    </table>
+    <hr>
+
+    <table>
+      <tr>
+        <td><img src="img/flaga-polska.png"></td>
+        <td><img src="img/flaga-ukraina.png"></td>
+      </tr>
+      <tr>
+        <td><img src="img/flaga-ukraina.png"></td>
+        <td><img src="img/flaga-polska.png"></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td colspan="4"></td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
